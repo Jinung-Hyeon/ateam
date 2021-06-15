@@ -27,6 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
         Button btnInput = findViewById(R.id.btnInput);
         String msg = "안녕하세요";
 	int a = 0;
+int ab = 0;
         btnInput.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
