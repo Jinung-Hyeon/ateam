@@ -14,6 +14,7 @@ public class MainActivity2 extends AppCompatActivity {
     //소스 작성은 onCreate에서 한다.
     //AppConpatActivity를 상속 받았다.
     EditText edtNum;
+	int a = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
