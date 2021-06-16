@@ -15,6 +15,7 @@ public class MainActivity2 extends AppCompatActivity {
     //AppConpatActivity를 상속 받았다.
     EditText edtNum;
 	int a = 0;
+	int b = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
