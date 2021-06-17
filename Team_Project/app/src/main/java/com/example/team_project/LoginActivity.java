@@ -44,7 +44,7 @@ ImageView login_kakao,login_naver,login_google;
             public void onClick(View v) {
                     if(main_edt_id.getText().toString().length() != 0 && main_edt_pw.getText().toString().length() !=0){
                     String id = main_edt_id.getText().toString();
-                    String pw = main_edt_pw.getText().toString();
+                    String pw = main_edt_pw.getText().toString();     
 
                     LoginSelect loginSelect = new LoginSelect(id, pw);
                     try {
