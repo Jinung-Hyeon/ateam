@@ -15,12 +15,16 @@ public class MainActivity2 extends AppCompatActivity {
     //AppConpatActivity를 상속 받았다.
     EditText edtNum;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	int a = 0;
 	int b = 0;
 	int c = 0;
 =======
 	int a = 333;
 >>>>>>> 13d9aa9dfe008bcaad818bed9b0a14a7af324d98
+=======
+	int a = 0;
+>>>>>>> 8d97c78232211a855ad298c4d02d61128b078dc0
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
