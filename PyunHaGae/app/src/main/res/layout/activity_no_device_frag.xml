@@ -13,6 +13,7 @@
         android:orientation="vertical"
         android:gravity="center">
         <ImageView
+            android:id="@+id/noDevice_frag_iv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/noDeviceimg"
@@ -23,6 +24,7 @@
             android:layout_height="wrap_content"
             android:text="등록된 기기가 없습니다.\n 기기를 등록해주세요"/>
         <Button
+            android:id="@+id/btn_doEnrolDevice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="기기등록"

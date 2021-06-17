@@ -15,18 +15,22 @@
         android:padding="20dp">
 
         <Button
+            android:id="@+id/btn_iot"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:text="IOT 기기를 등록해주세요"/>
         <Button
+            android:id="@+id/btn_phone"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:text="핸드폰을 등록해주세요"/>
         <Button
+            android:id="@+id/btn_link"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:text="IOT기기와 핸드폰을 연결해주세요"/>
         <Button
+            android:id="@+id/btn_wifi"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:text="WIFI를 등록해주세요"/>
