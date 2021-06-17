@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.pyunhagae"
+        applicationId "com.example.pyunhagaelogin"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
