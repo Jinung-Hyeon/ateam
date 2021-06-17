@@ -14,7 +14,17 @@ public class MainActivity2 extends AppCompatActivity {
     //소스 작성은 onCreate에서 한다.
     //AppConpatActivity를 상속 받았다.
     EditText edtNum;
+<<<<<<< HEAD
+<<<<<<< HEAD
 	int a = 0;
+	int b = 0;
+	int c = 0;
+=======
+	int a = 333;
+>>>>>>> 13d9aa9dfe008bcaad818bed9b0a14a7af324d98
+=======
+	int a = 0;
+>>>>>>> 8d97c78232211a855ad298c4d02d61128b078dc0
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +37,7 @@ public class MainActivity2 extends AppCompatActivity {
         Button btnInput = findViewById(R.id.btnInput);
         String msg = "안녕못해요";
 	int a = 0;
+int ab = 0;
         btnInput.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
