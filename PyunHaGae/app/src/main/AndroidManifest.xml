@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PyunHaGae">
         <activity android:name=".ExistDeviceFrag"></activity>
-        <activity android:name=".DeviceEnrolFrag" />
         <activity android:name=".NoDeviceFrag" />
         <activity android:name=".AfterLoginActivity" />
         <activity android:name=".SignUpActivity" />
