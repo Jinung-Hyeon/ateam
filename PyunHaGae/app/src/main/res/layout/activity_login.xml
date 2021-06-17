@@ -106,16 +106,19 @@
         android:weightSum="3"
         android:orientation="horizontal">
         <ImageView
+            android:id="@+id/logo_naver"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/logo_naver"
             android:layout_weight="1"/>
         <ImageView
+            android:id="@+id/logo_kakao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/logo_kakao"
             android:layout_weight="1"/>
         <ImageView
+            android:id="@+id/logo_google"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/logo_google"
