@@ -36,7 +36,7 @@ ImageView login_kakao,login_naver,login_google;
         login_kakao = findViewById(R.id.login_kakao);
         login_naver = findViewById(R.id.login_naver);
         login_google = findViewById(R.id.login_google);
-
+int a = 0;
 
         main_btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
