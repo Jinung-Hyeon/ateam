@@ -35,7 +35,7 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnInput = findViewById(R.id.btnInput);
-        String msg = "안녕못해요";
+        String msg = "안녕못해요?";
 	int a = 0;
 int ab = 0;
         btnInput.setOnClickListener(new View.OnClickListener() {
