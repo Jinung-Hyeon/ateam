@@ -24,7 +24,6 @@ public class LoginActivity extends AppCompatActivity {
 EditText main_edt_id,main_edt_pw;
 Button main_btn_login,main_btn_signUp;
 ImageView login_kakao,login_naver,login_google;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
