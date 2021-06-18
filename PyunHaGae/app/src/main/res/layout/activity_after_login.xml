@@ -19,6 +19,7 @@
             android:layout_height="wrap_content"
             android:text="로그아웃"
             android:textSize="24dp"
+            android:backgroundTint="#bc4749"
             android:layout_gravity="center"/>
 
     </LinearLayout>
