@@ -24,11 +24,12 @@
         android:layout_marginTop="45dp">
 
         <TextView
-            android:layout_width="14dp"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1.2"
+            android:layout_weight="1"
             android:text="아이디"
-            android:textSize="18dp" />
+            android:textSize="18dp"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/join_edt_id"
@@ -41,7 +42,7 @@
             android:id="@+id/join_btn_dupCheck"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.8"
+            android:layout_weight="1"
             android:backgroundTint="#8e94f2"
             android:text="중복확인"
             android:textSize="10dp" />
@@ -52,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="3"
+        android:weightSum="4"
         android:layout_marginTop="10dp">
 
         <TextView
@@ -60,13 +61,14 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="비밀번호"
-            android:textSize="18dp"/>
+            android:textSize="18dp"
+            android:gravity="center"/>
 
         <EditText
             android:id="@+id/join_edt_pw"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_weight="3"
             android:hint="비밀번호를 입력해주세요"/>
 
 
@@ -75,21 +77,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="3"
+        android:weightSum="4"
         android:layout_marginTop="10dp">
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="비밀번호 확인"
+            android:text="비밀번호
+            확인"
+            android:gravity="center"
             android:textSize="18dp"/>
 
         <EditText
             android:id="@+id/join_edt_pw_re"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_weight="3"
             android:hint="다시 한 번 더 입력해주세요"/>
 
 
@@ -99,7 +103,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="3"
+        android:weightSum="4"
         android:layout_marginTop="10dp">
 
         <TextView
@@ -107,40 +111,49 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="E-Mail"
-            android:textSize="18dp"/>
+            android:textSize="18dp"
+            android:gravity="center"/>
 
-        <EditText
-            android:id="@+id/join_edt_email"
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:ems="10"
-            android:layout_weight="1"
-            android:imeOptions="actionNext"
-            android:inputType="phone" />
-        <TextView
+            android:layout_weight="3"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/join_edt_email"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:layout_weight="1"
+                android:imeOptions="actionNext"
+                android:inputType="phone" />
+            <TextView
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="3dp"
-            android:layout_gravity="center"
-            android:text="\@"
-            />
-        <Spinner
-            android:id="@+id/join_spin_eamil_addr"
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-            android:nextFocusDown="@+id/phone3"
-            android:imeOptions="actionNext"
-            android:ems="10"
-            android:inputType="phone"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_gravity="center"
+                android:text="\@"
+                />
+            <Spinner
+                android:id="@+id/join_spin_eamil_addr"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1.5"
+                android:nextFocusDown="@+id/phone3"
+                android:imeOptions="actionNext"
+                android:ems="10"
+                android:inputType="phone"/>
+
+        </LinearLayout>
+
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="3"
+        android:weightSum="4"
         android:layout_marginTop="10dp">
 
         <TextView
@@ -148,18 +161,18 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="전화번호"
-            android:textSize="18dp"/>
+            android:textSize="18dp"
+            android:gravity="center"/>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
-            >
+            android:layout_weight="3">
 
             <Spinner
                 android:id="@+id/join_spin_first_num"
-                android:layout_width="80dp"
+                android:layout_width="100dp"
                 android:layout_height="match_parent"
                 android:ems="10"
                 android:nextFocusDown="@+id/phone2"
@@ -206,9 +219,10 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.2"
+                android:layout_weight="1"
                 android:text="주소"
-                android:textSize="18dp"/>
+                android:textSize="18dp"
+                android:gravity="center"/>
 
             <TextView
                 android:id="@+id/join_tv_addr_num"
@@ -221,7 +235,7 @@
                 android:id="@+id/join_btn_addr_search"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.8"
+                android:layout_weight="1"
                 android:backgroundTint="#8e94f2"
                 android:text="검색"
                 android:textSize="10dp" />
