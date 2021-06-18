@@ -22,6 +22,12 @@ public class NoDeviceFrag extends Fragment {
         doEnrolDevice = rootView.findViewById(R.id.btn_doEnrolDevice);
         noDevice_frag_iv = rootView.findViewById(R.id.noDevice_frag_iv);
 
+        doEnrolDevice.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
         return rootView;
     }
 }

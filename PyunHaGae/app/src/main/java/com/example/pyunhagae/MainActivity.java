@@ -9,7 +9,8 @@ import android.os.Handler;
 import com.example.pyunhagae.LoginActivity;
 import com.example.pyunhagae.R;
 
-public class MainActivity extends AppCompatActivity {
+public class
+MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
