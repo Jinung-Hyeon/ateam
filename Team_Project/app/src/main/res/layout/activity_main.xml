@@ -10,7 +10,11 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:background="@drawable/easydog" />
+=======
+        android:background="@drawable/eeseay" />
+>>>>>>> 3f1236b1c043d338bd6a0957aeff8f1873cf87a4
 
 
 
