@@ -12,13 +12,14 @@
         android:layout_weight="8"
         android:orientation="vertical"
         android:gravity="center">
+
         <ImageView
             android:id="@+id/exist_frag_iv"
-            android:layout_width="225dp"
-            android:layout_height="225dp"
-            android:src="@drawable/doorLock"
+            android:layout_width="289dp"
+            android:layout_height="286dp"
+            android:layout_marginTop="100dp"
             android:layout_marginBottom="10dp"
-            android:layout_marginTop="100dp"/>
+            android:src="@drawable/doorlock_img" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
