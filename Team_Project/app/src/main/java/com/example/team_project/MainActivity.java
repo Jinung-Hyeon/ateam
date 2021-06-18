@@ -1,13 +1,10 @@
-package com.example.pyunhagae;
+package com.example.team_project;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-
-import com.example.pyunhagae.LoginActivity;
-import com.example.pyunhagae.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                Intent intent = new Intent(MainActivity.this,LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
