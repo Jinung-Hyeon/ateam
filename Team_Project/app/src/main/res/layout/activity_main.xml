@@ -8,17 +8,9 @@
     android:background="@color/black">
 
     <ImageView
+        android:id="@+id/loading_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-<<<<<<< HEAD
-        android:background="@drawable/eeseay" />
-=======
-<<<<<<< HEAD
-        android:background="@drawable/easydog" />
-=======
-        android:background="@drawable/eeseay" />
->>>>>>> 3f1236b1c043d338bd6a0957aeff8f1873cf87a4
->>>>>>> 920dd398a110b21eda2fabbcedb8103d487628b3
+        android:layout_height="match_parent" />
 
 
 
